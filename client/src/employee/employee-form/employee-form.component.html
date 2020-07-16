@@ -1,0 +1,92 @@
+<form [formGroup]="employeeForm">
+  <mat-grid-list cols="3" rowHeight="150">
+    <mat-grid-tile>
+      <div class="form-label">
+        <mat-icon class="iconl">account_box</mat-icon>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="2">
+      <div class="form-field">
+        <mat-form-field appearance="standard" color="accent">
+          <mat-label>Nombre</mat-label>
+          <input matInput>
+          <mat-hint>Maximo 50 caracteres</mat-hint>
+        </mat-form-field>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile></mat-grid-tile>
+    <mat-grid-tile colspan="2">
+      <div class="form-field">
+        <mat-form-field appearance="standard" color="accent">
+          <mat-label>Apellido</mat-label>
+          <input matInput>
+          <mat-hint>Maximo 50 caracteres</mat-hint>
+        </mat-form-field>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile></mat-grid-tile>
+    <mat-grid-tile colspan="2">
+      <div class="form-field">
+        <mat-form-field appearance="standard" color="accent">
+          <mat-label>Fecha de nacimiento</mat-label>
+          <input matInput type="date">
+        </mat-form-field>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile></mat-grid-tile>
+    <mat-grid-tile colspan="2">
+      <div class="form-field">
+        <mat-form-field appearance="standard" color="accent">
+          <mat-label>Sexo</mat-label>
+          <mat-select>
+            <mat-option>F</mat-option>
+            <mat-option>M</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile></mat-grid-tile>
+    <mat-grid-tile colspan="2">
+      <div class="form-field">
+        <mat-form-field appearance="standard" color="accent">
+          <mat-label>Dirección</mat-label>
+          <textarea matInput></textarea>
+        </mat-form-field>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <div class="form-label">
+        <mat-icon class="iconl">work</mat-icon>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="2">
+      <div class="form-field">
+        <mat-form-field appearance="standard" color="accent">
+          <mat-label>NSS</mat-label>
+          <input matInput>
+          <mat-hint>Esta es informacion muy importante</mat-hint>
+        </mat-form-field>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile></mat-grid-tile>
+    <mat-grid-tile colspan="2">
+      <div class="form-field">
+        <mat-form-field appearance="standard" color="accent">
+          <mat-label>Salario</mat-label>
+          <input matInput>
+          <mat-hint>Requerido</mat-hint>
+        </mat-form-field>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile></mat-grid-tile>
+    <mat-grid-tile colspan="2">
+      <div class="form-field">
+        <mat-form-field appearance="standard" color="accent">
+          <mat-label>NSS Superior</mat-label>
+          <input matInput>
+          <mat-hint>Esta es informacion muy importante</mat-hint>
+        </mat-form-field>
+      </div>
+    </mat-grid-tile>
+</mat-grid-list>
+</form>
