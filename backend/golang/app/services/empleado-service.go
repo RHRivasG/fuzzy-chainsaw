@@ -30,5 +30,6 @@ func (s *EmpleadoService) Create(empleado models.Empleado, db *pg.DB) error {
 
 //Update empleado
 func (s *EmpleadoService) Update(empleado models.Empleado, db *pg.DB) error {
-	return db.Update(empleado)
+	_, err := db.Model(&empleado).Where("nss = ?", &empleado.Nss).Update()
+	return err
 }

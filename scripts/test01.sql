@@ -3,7 +3,7 @@ CREATE TABLE empleados(
     apellido VARCHAR(10) NOT NULL,
     nss INT NOT NULL PRIMARY KEY,
     fecha_nac DATE NOT NULL,
-    direccion VARCHAR(10) NOT NULL,
+    direccion VARCHAR NOT NULL,
     sexo VARCHAR(2) CHECK(SEXO='F' OR sexo='M'), 
     salario NUMERIC NOT NULL,
     nss_sup INT REFERENCES empleados(nss),
