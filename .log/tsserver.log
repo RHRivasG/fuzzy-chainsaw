@@ -1,0 +1,64 @@
+Info 0    [10:20:47.672] Starting TS Server
+Info 1    [10:20:47.673] Version: 3.9.6
+Info 2    [10:20:47.673] Arguments: /usr/bin/node /usr/bin/tsserver --logFile /home/syfers/Documentos/repos/fuzzy-chainsaw/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/2e033a898fee9e072ddf316f4aaeda1f/tscancellation*
+Info 3    [10:20:47.673] Platform: linux NodeVersion: 14 CaseSensitive: true
+Info 4    [10:20:47.683] Search path: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src/app
+Info 5    [10:20:47.684] For info: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src/app/app.component.ts :: Config file name: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.json
+Info 6    [10:20:47.685] Opened configuration file /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.json
+Info 7    [10:20:47.692] Config: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.json : {
+ "rootNames": [],
+ "options": {
+  "configFilePath": "/home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.json"
+ },
+ "projectReferences": [
+  {
+   "path": "/home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json",
+   "originalPath": "./tsconfig.app.json"
+  },
+  {
+   "path": "/home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.spec.json",
+   "originalPath": "./tsconfig.spec.json"
+  },
+  {
+   "path": "/home/syfers/Documentos/repos/fuzzy-chainsaw/client/e2e/tsconfig.json",
+   "originalPath": "./e2e/tsconfig.json"
+  }
+ ]
+}
+Info 8    [10:20:47.717] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.json
+Info 9    [10:20:47.751] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.json Version: 1 structureChanged: true Elapsed: 34ms
+Info 10   [10:20:47.751] Project '/home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.json' (Configured)
+Info 11   [10:20:47.751] 	Files (0)
+
+Info 12   [10:20:47.752] -----------------------------------------------
+Info 13   [10:20:47.753] Opened configuration file /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 14   [10:20:47.757] Config: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json : {
+ "rootNames": [
+  "/home/syfers/Documentos/repos/fuzzy-chainsaw/client/src/main.ts",
+  "/home/syfers/Documentos/repos/fuzzy-chainsaw/client/src/polyfills.ts"
+ ],
+ "options": {
+  "baseUrl": "/home/syfers/Documentos/repos/fuzzy-chainsaw/client",
+  "outDir": "/home/syfers/Documentos/repos/fuzzy-chainsaw/client/out-tsc/app",
+  "sourceMap": true,
+  "declaration": false,
+  "downlevelIteration": true,
+  "experimentalDecorators": true,
+  "moduleResolution": 2,
+  "importHelpers": true,
+  "target": 2,
+  "module": 6,
+  "lib": [
+   "lib.es2018.d.ts",
+   "lib.dom.d.ts"
+  ],
+  "types": [],
+  "configFilePath": "/home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json"
+ }
+}
+Info 15   [10:20:47.758] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 16   [10:20:49.617] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 1 structureChanged: true Elapsed: 1859ms
+Info 17   [10:20:49.617] Project '/home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json' (Configured)
+Info 18   [10:20:49.617] 	Files (195)
+
+Info 19   [10:20:49.617] -----------------------------------------------
