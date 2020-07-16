@@ -1,0 +1,250 @@
+Info 0    [10:42:14.479] Starting TS Server
+Info 1    [10:42:14.479] Version: 3.9.6
+Info 2    [10:42:14.479] Arguments: /usr/bin/node /usr/bin/tsserver --logFile /home/syfers/Documentos/repos/fuzzy-chainsaw/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/60e6411227b7fc44a5ca5980b05a35be/tscancellation*
+Info 3    [10:42:14.479] Platform: linux NodeVersion: 14 CaseSensitive: true
+Info 4    [10:42:14.490] Search path: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src/app
+Info 5    [10:42:14.491] For info: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src/app/app-routing.module.ts :: Config file name: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.json
+Info 6    [10:42:14.492] Opened configuration file /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.json
+Info 7    [10:42:14.500] Config: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.json : {
+ "rootNames": [],
+ "options": {
+  "configFilePath": "/home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.json"
+ },
+ "projectReferences": [
+  {
+   "path": "/home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json",
+   "originalPath": "./tsconfig.app.json"
+  },
+  {
+   "path": "/home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.spec.json",
+   "originalPath": "./tsconfig.spec.json"
+  },
+  {
+   "path": "/home/syfers/Documentos/repos/fuzzy-chainsaw/client/e2e/tsconfig.json",
+   "originalPath": "./e2e/tsconfig.json"
+  }
+ ]
+}
+Info 8    [10:42:14.529] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.json
+Info 9    [10:42:14.562] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.json Version: 1 structureChanged: true Elapsed: 33ms
+Info 10   [10:42:14.563] Project '/home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.json' (Configured)
+Info 11   [10:42:14.563] 	Files (0)
+
+Info 12   [10:42:14.563] -----------------------------------------------
+Info 13   [10:42:14.564] Opened configuration file /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 14   [10:42:14.568] Config: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json : {
+ "rootNames": [
+  "/home/syfers/Documentos/repos/fuzzy-chainsaw/client/src/main.ts",
+  "/home/syfers/Documentos/repos/fuzzy-chainsaw/client/src/polyfills.ts"
+ ],
+ "options": {
+  "baseUrl": "/home/syfers/Documentos/repos/fuzzy-chainsaw/client",
+  "outDir": "/home/syfers/Documentos/repos/fuzzy-chainsaw/client/out-tsc/app",
+  "sourceMap": true,
+  "declaration": false,
+  "downlevelIteration": true,
+  "experimentalDecorators": true,
+  "moduleResolution": 2,
+  "importHelpers": true,
+  "target": 2,
+  "module": 6,
+  "lib": [
+   "lib.es2018.d.ts",
+   "lib.dom.d.ts"
+  ],
+  "types": [],
+  "configFilePath": "/home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json"
+ }
+}
+Info 15   [10:42:14.569] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 16   [10:42:16.678] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 1 structureChanged: true Elapsed: 2109ms
+Info 17   [10:42:16.678] Project '/home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json' (Configured)
+Info 18   [10:42:16.678] 	Files (197)
+
+Info 19   [10:42:16.678] -----------------------------------------------
+Info 20   [10:42:41.999] FileWatcher:: Triggered with /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src/app/app.module.ts 1:: WatchInfo: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src/app/app.module.ts 500 undefined Project:  WatchType: Closed Script info
+Info 21   [10:42:42.1] Elapsed:: 2ms FileWatcher:: Triggered with /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src/app/app.module.ts 1:: WatchInfo: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src/app/app.module.ts 500 undefined Project:  WatchType: Closed Script info
+Info 22   [10:42:42.251] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 23   [10:42:42.299] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 2 structureChanged: true Elapsed: 47ms
+Info 24   [10:42:42.299] Project '/home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json' (Configured)
+Info 25   [10:42:42.299] 	Files (199)
+
+Info 26   [10:42:42.299] -----------------------------------------------
+Info 27   [10:42:42.566] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src :: WatchInfo: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src 1 undefined Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json WatchType: Wild card directory
+Info 28   [10:42:42.567] Elapsed:: 1ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src :: WatchInfo: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src 1 undefined Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json WatchType: Wild card directory
+Info 29   [10:42:42.567] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src :: WatchInfo: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src 1 undefined Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json WatchType: Failed Lookup Locations
+Info 30   [10:42:42.572] Elapsed:: 5ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src :: WatchInfo: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src 1 undefined Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json WatchType: Failed Lookup Locations
+Info 31   [10:42:42.835] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 32   [10:42:42.897] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 3 structureChanged: true Elapsed: 62ms
+Info 33   [10:42:42.898] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 34   [10:42:45.72] Before ensureProjectForOpenFiles:
+Info 35   [10:42:45.72] After ensureProjectForOpenFiles:
+Info 36   [10:42:45.72] got projects updated in background, updating diagnostics for /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src/app/app-routing.module.ts
+Info 37   [10:42:45.639] Search path: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src/employee
+Info 38   [10:42:45.640] For info: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src/employee/employee.module.ts :: Config file name: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.json
+Info 39   [10:43:3.681] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src :: WatchInfo: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src 1 undefined Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json WatchType: Wild card directory
+Info 40   [10:43:3.681] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src :: WatchInfo: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src 1 undefined Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json WatchType: Wild card directory
+Info 41   [10:43:3.681] DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src :: WatchInfo: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src 1 undefined Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json WatchType: Failed Lookup Locations
+Info 42   [10:43:3.689] Elapsed:: 8ms DirectoryWatcher:: Triggered with /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src :: WatchInfo: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src 1 undefined Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json WatchType: Failed Lookup Locations
+Info 43   [10:43:3.947] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 44   [10:43:4.15] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 4 structureChanged: true Elapsed: 68ms
+Info 45   [10:43:4.15] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 46   [10:43:6.189] Before ensureProjectForOpenFiles:
+Info 47   [10:43:6.189] After ensureProjectForOpenFiles:
+Info 48   [10:43:6.190] got projects updated in background, updating diagnostics for /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src/app/app-routing.module.ts,/home/syfers/Documentos/repos/fuzzy-chainsaw/client/src/employee/employee.module.ts
+Info 49   [10:43:6.249] Search path: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src/employee
+Info 50   [10:43:6.249] For info: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/src/employee/employee-routing.module.ts :: Config file name: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.json
+Info 51   [10:43:6.249] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 52   [10:43:6.286] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 5 structureChanged: true Elapsed: 37ms
+Info 53   [10:43:6.286] Project '/home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json' (Configured)
+Info 54   [10:43:6.286] 	Files (200)
+
+Info 55   [10:43:6.286] -----------------------------------------------
+Info 56   [10:43:9.152] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 57   [10:43:9.171] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 6 structureChanged: false Elapsed: 19ms
+Info 58   [10:43:9.172] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 59   [10:43:9.172] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 60   [10:43:9.183] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 7 structureChanged: false Elapsed: 11ms
+Info 61   [10:43:9.183] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 62   [10:43:10.126] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 63   [10:43:10.142] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 8 structureChanged: false Elapsed: 16ms
+Info 64   [10:43:10.142] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 65   [10:43:10.816] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 66   [10:43:10.835] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 9 structureChanged: false Elapsed: 19ms
+Info 67   [10:43:10.835] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 68   [10:43:11.122] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 69   [10:43:11.137] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 10 structureChanged: false Elapsed: 15ms
+Info 70   [10:43:11.137] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 71   [10:43:11.139] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 72   [10:43:11.155] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 11 structureChanged: false Elapsed: 16ms
+Info 73   [10:43:11.155] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 74   [10:43:11.855] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 75   [10:43:11.868] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 12 structureChanged: false Elapsed: 12ms
+Info 76   [10:43:11.868] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 77   [10:43:11.910] getCompletionData: Get current token: 0
+Info 78   [10:43:11.910] getCompletionData: Is inside comment: 0
+Info 79   [10:43:11.910] getCompletionData: Get previous token 1: 0
+Info 80   [10:43:11.911] getCompletionData: Get previous token 2: 1
+Info 81   [10:43:11.911] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 82   [10:43:11.914] getCompletionData: Semantic work: 3
+Info 83   [10:43:11.915] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1
+Info 84   [10:43:12.325] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 85   [10:43:12.342] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 13 structureChanged: false Elapsed: 17ms
+Info 86   [10:43:12.342] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 87   [10:43:13.654] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 88   [10:43:13.665] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 14 structureChanged: false Elapsed: 11ms
+Info 89   [10:43:13.665] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 90   [10:43:13.705] getCompletionData: Get current token: 0
+Info 91   [10:43:13.705] getCompletionData: Is inside comment: 0
+Info 92   [10:43:13.705] getCompletionData: Get previous token 1: 0
+Info 93   [10:43:13.705] getCompletionData: Get previous token 2: 0
+Info 94   [10:43:13.705] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 95   [10:43:13.706] getCompletionData: Semantic work: 1
+Info 96   [10:43:13.707] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0
+Info 97   [10:43:14.340] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 98   [10:43:14.358] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 15 structureChanged: false Elapsed: 18ms
+Info 99   [10:43:14.358] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 100  [10:43:14.827] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 101  [10:43:14.842] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 16 structureChanged: false Elapsed: 15ms
+Info 102  [10:43:14.842] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 103  [10:43:15.351] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 104  [10:43:15.365] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 17 structureChanged: false Elapsed: 14ms
+Info 105  [10:43:15.365] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 106  [10:43:15.969] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 107  [10:43:15.982] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 18 structureChanged: false Elapsed: 13ms
+Info 108  [10:43:15.982] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 109  [10:43:19.238] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 110  [10:43:19.252] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 19 structureChanged: false Elapsed: 13ms
+Info 111  [10:43:19.252] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 112  [10:43:20.737] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 113  [10:43:20.750] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 20 structureChanged: false Elapsed: 13ms
+Info 114  [10:43:20.750] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 115  [10:43:20.790] getCompletionData: Get current token: 0
+Info 116  [10:43:20.790] getCompletionData: Is inside comment: 0
+Info 117  [10:43:20.790] getCompletionData: Get previous token 1: 0
+Info 118  [10:43:20.790] getCompletionData: Get previous token 2: 0
+Info 119  [10:43:20.790] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 120  [10:43:20.792] getCompletionData: Semantic work: 2
+Info 121  [10:43:20.793] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 1
+Info 122  [10:43:21.652] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 123  [10:43:21.665] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 21 structureChanged: false Elapsed: 13ms
+Info 124  [10:43:21.665] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 125  [10:43:23.696] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 126  [10:43:23.707] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 22 structureChanged: false Elapsed: 11ms
+Info 127  [10:43:23.707] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 128  [10:43:25.515] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 129  [10:43:25.534] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 23 structureChanged: false Elapsed: 19ms
+Info 130  [10:43:25.534] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 131  [10:43:25.565] getCompletionData: Get current token: 0
+Info 132  [10:43:25.565] getCompletionData: Is inside comment: 0
+Info 133  [10:43:25.566] getCompletionData: Get previous token 1: 0
+Info 134  [10:43:25.566] getCompletionData: Get previous token 2: 0
+Info 135  [10:43:25.566] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 136  [10:43:25.567] getCompletionData: Semantic work: 1
+Info 137  [10:43:25.568] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 0
+Info 138  [10:43:26.244] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 139  [10:43:26.258] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 24 structureChanged: false Elapsed: 14ms
+Info 140  [10:43:26.258] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 141  [10:43:26.577] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 142  [10:43:26.589] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 25 structureChanged: false Elapsed: 12ms
+Info 143  [10:43:26.589] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 144  [10:43:27.287] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 145  [10:43:27.297] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 26 structureChanged: false Elapsed: 10ms
+Info 146  [10:43:27.297] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 147  [10:43:28.123] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 148  [10:43:28.136] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 27 structureChanged: false Elapsed: 13ms
+Info 149  [10:43:28.136] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 150  [10:43:28.965] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 151  [10:43:28.975] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 28 structureChanged: false Elapsed: 9ms
+Info 152  [10:43:28.975] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 153  [10:43:29.506] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 154  [10:43:29.520] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 29 structureChanged: false Elapsed: 13ms
+Info 155  [10:43:29.520] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 156  [10:43:29.526] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 157  [10:43:29.531] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 30 structureChanged: false Elapsed: 5ms
+Info 158  [10:43:29.531] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 159  [10:43:30.416] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 160  [10:43:30.437] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 31 structureChanged: false Elapsed: 20ms
+Info 161  [10:43:30.437] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 162  [10:43:30.468] getCompletionData: Get current token: 0
+Info 163  [10:43:30.468] getCompletionData: Is inside comment: 0
+Info 164  [10:43:30.468] getCompletionData: Get previous token 1: 0
+Info 165  [10:43:30.468] getCompletionData: Get previous token 2: 0
+Info 166  [10:43:30.468] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 167  [10:43:30.473] getSymbolsFromOtherSourceFileExports: Recomputing list
+Info 168  [10:43:30.503] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 169  [10:43:30.503] getSymbolsFromOtherSourceFileExports: 30
+Info 170  [10:43:30.507] getCompletionData: Semantic work: 39
+Info 171  [10:43:30.521] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 13
+Info 172  [10:43:30.723] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 173  [10:43:30.731] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 32 structureChanged: false Elapsed: 8ms
+Info 174  [10:43:30.731] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 175  [10:43:30.731] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 176  [10:43:30.743] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 33 structureChanged: false Elapsed: 12ms
+Info 177  [10:43:30.744] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 178  [10:43:31.147] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 179  [10:43:31.158] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 34 structureChanged: false Elapsed: 11ms
+Info 180  [10:43:31.158] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 181  [10:43:31.199] getCompletionData: Get current token: 0
+Info 182  [10:43:31.199] getCompletionData: Is inside comment: 0
+Info 183  [10:43:31.199] getCompletionData: Get previous token 1: 0
+Info 184  [10:43:31.199] getCompletionData: Get previous token 2: 0
+Info 185  [10:43:31.199] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 186  [10:43:31.207] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 187  [10:43:31.214] getCompletionData: Semantic work: 15
+Info 188  [10:43:31.224] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 9
+Info 189  [10:43:32.137] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 190  [10:43:32.151] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 35 structureChanged: false Elapsed: 13ms
+Info 191  [10:43:32.151] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 192  [10:43:33.930] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 193  [10:43:33.944] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 36 structureChanged: false Elapsed: 13ms
+Info 194  [10:43:33.945] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 195  [10:43:34.420] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 196  [10:43:34.431] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 37 structureChanged: false Elapsed: 10ms
+Info 197  [10:43:34.431] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 198  [10:43:37.58] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 199  [10:43:37.348] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 200  [10:43:38.126] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 201  [10:43:38.341] Starting updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json
+Info 202  [10:43:38.374] Finishing updateGraphWorker: Project: /home/syfers/Documentos/repos/fuzzy-chainsaw/client/tsconfig.app.json Version: 38 structureChanged: true Elapsed: 33ms
+Info 203  [10:43:38.374] Different program with same set of files:: oldProgram.structureIsReused:: 1
