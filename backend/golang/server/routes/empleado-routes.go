@@ -12,4 +12,10 @@ func SetEmpleadoRoutes(r *gin.RouterGroup) {
 	r.GET("/empleados", func(ctx *gin.Context) {
 		controller.FindAll(ctx)
 	})
+	r.POST("/empleado", func(ctx *gin.Context) {
+		controller.Create(ctx)
+	})
+	r.PUT("/empleado/:nss", func(ctx *gin.Context) {
+		controller.Update(ctx)
+	})
 }

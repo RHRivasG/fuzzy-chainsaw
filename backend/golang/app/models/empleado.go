@@ -7,7 +7,7 @@ type Empleado struct {
 	tableName struct{}  `pg:"empleados"`
 	Nombre    string    `pg:"nombre, notnull" json:"nombre" binding:"required"`
 	Apellido  string    `pg:"apellido, notnull" json:"apellido" binding:"required"`
-	Nss       int       `pg:"nss,pk" json:"nss" binding:"required"`
+	Nss       int64     `pg:"nss,pk" json:"nss" binding:"required"`
 	FechaNac  time.Time `pg:"fecha_nac, notnull" json:"fecha_nac" binding:"required"`
 	Direccion string    `pg:"direccion, notnull" json:"direccion" binding:"required"`
 	Sexo      string    `pg:"sexo, notnull" json:"sexo" binding:"required"`

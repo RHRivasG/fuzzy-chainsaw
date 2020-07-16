@@ -22,3 +22,13 @@ func (s *EmpleadoService) FindAll(db *pg.DB) ([]models.Empleado, error) {
 	}
 	return empleados, nil
 }
+
+//Create empleado
+func (s *EmpleadoService) Create(empleado models.Empleado, db *pg.DB) error {
+	return db.Insert(&empleado)
+}
+
+//Update empleado
+func (s *EmpleadoService) Update(empleado models.Empleado, db *pg.DB) error {
+	return db.Update(empleado)
+}
